@@ -1,0 +1,80 @@
+html {
+     box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+     box-sizing: inherit;
+}
+
+body {
+     background-color: rgb(58, 58, 58);
+     color: aliceblue;
+     max-width: 1280px;
+     margin: 0 auto;
+}
+
+header {
+     background-color: red;
+     height: 100px;
+}
+
+nav {
+     background-color: blue;
+     display: block;
+     border-top: solid black;
+     border-bottom: solid black;
+}
+
+article {
+     background-color: green;
+     display: flex;
+     min-height: 500px;
+     padding: 5px;
+}
+
+section {
+     background-color: rgb(52, 114, 168);
+     flex: 3;
+     display: inline-block;
+     height: auto;
+     margin: 5px;
+}
+
+aside {
+     background-color: rgb(52, 114, 168);
+     flex: 2;
+     display: inline-block;
+     height: auto;
+     margin: 5px;
+}
+
+footer {
+     background-color: red;
+     border-top: solid black;
+     height: 50px;
+}
+
+nav > ul {
+     display: flex;
+     margin: 0;
+     padding: 15px
+}
+
+nav > ul > li {
+     display: inline-block;
+}
+
+nav > ul > li > a {
+     padding: 10px;
+     text-decoration: none;
+     border-radius: 3px;
+}
+
+a:hover {
+     background-color: rgb(255, 0, 0);
+}
+a:visited {
+     color: aliceblue;
+}

@@ -1,0 +1,75 @@
+html {
+     box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+     box-sizing: inherit;
+}
+
+body {
+     background-color: rgb(58, 58, 58);
+     color: aliceblue;
+     max-width: 1280px;
+     margin: 0 auto;
+}
+
+header {
+     height: 100px;
+}
+
+nav {
+     display: block;
+     border-top: solid black;
+     border-bottom: solid black;
+}
+
+article {
+     display: flex;
+     min-height: 500px;
+     padding: 5px;
+}
+
+section {
+     flex: 2;
+     display: inline-block;
+     height: auto;
+     margin: 5px;
+}
+
+aside {
+
+     flex: 2;
+     display: inline-block;
+     height: auto;
+     margin: 5px;
+}
+
+footer {
+     border-top: solid black;
+     height: 50px;
+}
+
+nav > ul {
+     display: flex;
+     margin: 0;
+     padding: 15px
+}
+
+nav > ul > li {
+     display: inline-block;
+}
+
+nav > ul > li > a {
+     padding: 10px;
+     text-decoration: none;
+     border-radius: 3px;
+}
+
+a:hover {
+     background-color: rgb(43, 43, 43);
+}
+a:visited {
+     color: aliceblue;
+}
